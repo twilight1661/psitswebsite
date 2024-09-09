@@ -1,0 +1,33 @@
+.main-container {
+  background-image: url(https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/364768547_251493704369093_2559672269268568882_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGGUZhJjnWGBxW1uKcGhYw1NULHrOg9Ipo1Qses6D0imj3GOxOP-hcbDA-fXmJvXHfiA5UK_HuQ8m57tK-jzT8o&_nc_ohc=unuPaCdhzuUQ7kNvgGYdPCN&_nc_ht=scontent.fmnl4-4.fna&_nc_gid=AEs_7PjN4Xe5xapKJ6-KwaR&oh=00_AYB8_N6l9bmHa_b3pn7UnlzIJHZu3AMOoN-TiwyXrsA-Sg&oe=66E35A1D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(16, 16, 16); /* Ensure text color is readable */
+  text-align: center;
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 4rem; /* Bigger font size for header */
+  color: rgb(246, 6, 6); /* Adjust text color for better contrast */
+}
+
+p {
+  font-size: 3rem; /* Bigger font size for paragraphs */
+  color: rgb(11, 64, 239);
+}
+
+.btn-primary {
+  padding: 15px 30px; /* Increase button padding */
+  font-size: 1.5rem; /* Increase button font size */
+  background-color: rgba(0, 0, 255, 0.7); /* Optional: Add a semi-transparent background */
+  border: none; /* Remove border for a cleaner look */
+  color: white; /* Ensure text on the button is readable */
+}

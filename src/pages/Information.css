@@ -1,0 +1,21 @@
+/* src/pages/Information.css */
+
+.information-container {
+    background-image: url(https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/401623061_309446768573786_8576482604986390815_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGjN-rdBSEd2MDZtPYp2BKZQWyrXFnWNQRBbKtcWdY1BK000fpAfgvxhgbVYVNiNFzkCRAtddA1C_VsNnX_FtyQ&_nc_ohc=BdHv1k3rf7IQ7kNvgHNSziv&_nc_ht=scontent.fmnl4-1.fna&oh=00_AYD9zh7WQE37A-3-pNvWmK_p7kXnFAPLmvRIb8277UWB9Q&oe=66E374FE); /* Update the path if needed */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: rgb(4, 0, 11); /* Ensure text color is readable against the background */
+    padding: 50px 20px; /* Adjust padding as needed */
+    min-height: 120vh; /* Ensure the container covers the full viewport height */
+  }
+  
+  h1, h2, p {
+    margin-bottom: 20px; /* Adjust margin for spacing */
+  }
+  
+  ul {
+    list-style-type: disc; /* Style for list items */
+    margin-left: 20px; /* Indentation for list items */
+  }
+  
